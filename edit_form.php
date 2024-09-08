@@ -27,7 +27,7 @@ if (isset($_GET["id"])) {
             <input type="hidden" value="<?php echo $row['id']; ?>" name="edit_id">
 
             <label for="stu_id">รหัสนักเรียน :</label>
-            <input class="form-control" type="number" name="stu_id" id="" required>
+            <input class="form-control" type="text" name="stu_id" id="" required>
 
             <label for="stu_id">ชื่อ-นามสกุล:</label>
             <input class="form-control" type="text" name="stu_name" id=""  required>
@@ -36,7 +36,7 @@ if (isset($_GET["id"])) {
             <input class="form-control" type="email" name="stu_email" id=""  required>
 
             <label for="stu_id">หมายเลขโทรศัพท์ :</label>
-            <input class="form-control" type="number" name="stu_tel" id=""  required>
+            <input class="form-control" type="text" name="stu_tel" id=""  required>
 
             <label for="stu_id">วันที่ลงทะเบียน :</label>
             <input class="form-control" type="date" name="stu_date" id=""  required> <br>
