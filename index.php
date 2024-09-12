@@ -51,7 +51,7 @@
             </tbody>         
         </table>
     </div>
-    <a href="register_form.php" role="button"><h1><center>ลงทะเบียน</center></h2></a>
+    <a href="register.php" role="button"><h1><center>ลงทะเบียน</center></h2></a>
 </body>
 
 </html>
