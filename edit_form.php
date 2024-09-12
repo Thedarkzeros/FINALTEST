@@ -23,7 +23,7 @@ if (isset($_GET["id"])) {
     <div class="container">
         <h1 class="text-center">แก้ไขข้อมูล</h1>
         <hr>
-        <form action="update.php" method="POST">
+        <form action="data_success.php" method="POST">
             <input type="hidden" value="<?php echo $row['id']; ?>" name="edit_id">
 
             <label for="stu_id">รหัสนักเรียน :</label>
