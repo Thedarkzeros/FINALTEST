@@ -10,7 +10,7 @@
     <div class="container">
         <h1 class="text-center">ลงทะเบียน</h1>
         <hr>
-        <form action="data.php" method="POST">
+        <form action="add_data.php" method="POST">
             <label for="stu_id">รหัสนักเรียน :</label>
             <input class="form-control" type="text" name="stu_id" id="" required>
 
